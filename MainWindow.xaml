@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFExcelView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFExcelView"
+        mc:Ignorable="d"
+        Title="Приветствую!" Height="200" Width="500" ResizeMode="NoResize">
+    <Grid Margin="10">
+        <Label Content="Здравствуйте! У вас имеется файл с базой данных, или его скачать из интернета?" 
+            FontSize="12" FontStretch="UltraExpanded" 
+            Margin="0" Height="26" HorizontalAlignment="Center" 
+            VerticalAlignment="Top"/>
+        <Button Click="Download_Click"
+                IsCancel="True" 
+                Content="Нету, нужно скачать" 
+                Width="130" Margin="0,50,50,50" 
+                Height="25" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Padding="0"/>
+        <Button Click="Accept_Click"
+                IsDefault="True"
+                Width="180" Margin="50,50,0,50" 
+                Content="Есть! Сейчас покажу, где он" 
+                HorizontalAlignment="Left" 
+                Height="26" VerticalAlignment="Center" Padding="0"/>
+    </Grid>
+</Window>
+    
