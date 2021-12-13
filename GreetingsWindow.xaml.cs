@@ -51,7 +51,7 @@ namespace WpfApp1
         public void DownloadFile()
         {
             string link = @"https://bdu.fstec.ru/files/documents/thrlist.xlsx";
-            if (needToLoad)
+            if (path == "")
             {
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "Excel File (*.xlsx)|*.*";
