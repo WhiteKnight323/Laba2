@@ -1,8 +1,4 @@
 # Laba2
-Приветствую! В данной программе реализована функция автоматического парсера информации из сети Интернет. А именно парсинг банка данных угроз ФСТЭК, который находиться на сайте в формате excel таблицы. Был реализован удобный вывод информации в двух вариантах: полном и сокращенном.
-Если у пользователя уже есть данный банк данных, то его можно обновить в данной программе.
+Greetings! This program implements the function of an automatic parser of information from the Internet. Namely, the parsing of the FSTEC threat databank, which is located on the site in excel table format. Convenient display of information was implemented in two versions: full and reduced. If the user already has this databank, then it can be updated in this program.
 
-При запуске отображается окно с выбором: открыть файл или скачать, если его нет.
-В случае если было выбрано скачать, то требуется указать, куда сохранить файл.
-Если было выбрано открыть файл, то открывается окно выбора файла, а затем производиться его отображение.
-Теперь, при нажатии кнопки обновить файл, банк данных будет скачан с сайта и заменит уже существующий файл, а на экране отобразиться окно с изменениями в файле.
+At startup, a window is displayed with a choice: open the file or download, if it is not there. If you chose to download, then you need to specify where to save the file. If you chose to open the file, the file selection window opens, and then it is displayed. Now, when you click the update file button, the databank will be downloaded from the site and replace the existing file, and a window with changes in the file will be displayed on the screen.
